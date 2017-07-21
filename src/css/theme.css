@@ -57,6 +57,16 @@ nav {
   max-width: 25%;
 }
 
+#headlogo {
+  width: 128px;
+  height: 72px;
+}
+
+#headlogodiv {
+  position: relative;
+  left: 25px;
+  bottom: 5px;
+}
 
 /* Main */
 
@@ -73,7 +83,23 @@ nav {
   margin-top: -5px;
 }
 
+#votingbox {
+  position: relative;
+  object-position: center;
+  left: 60px;
+  width: 1780px;
+}
 
+#store {
+  position: relative;
+  width: 1763px;
+  right: 230px;
+}
+
+#staffwrap1 {
+  position: relative;
+  left: 100px;
+}
 /* Footer */
 
 #sm{
@@ -84,6 +110,16 @@ nav {
   width: 50%;
   padding: 20px;
   left: 560px;
+  top: 25px;
+}
+
+#smc{
+  position: relative;
+  object-position: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 20px;
   top: 25px;
 }
 
@@ -104,6 +140,13 @@ nav {
   left: 230px;
   text-align: right;
 }
+
+#cpv {
+position: relative;
+left: 870px;
+text-align: right;
+}
+
 .page-footer {
   position: relative;
   background-color: #342E37;

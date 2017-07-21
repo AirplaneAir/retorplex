@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>
-  <!-- MatBlog, created with love by Sid Engel. -->
-  <!-- https://coolors.co/60463b-856a5d-ccc9e7-6c6f7d-2e3138 -->
+
 
   <!-- Jquery -->
   <script src="./src/js/jquery-git.min.js"></script>
@@ -32,13 +31,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Site Title -->
-  <title>MaterialCraft - Your Server</title>
+  <title>Retroplex - Staff</title>
 
   <!-- Site Description -->
   <meta name="description" content="A simple, easy to work with blog template, for server owners.">
 
   <!-- Site Author. Feel free to change this... -->
-  <meta name="author" content="Sid Engel">
+  <meta name="Mathew Thomason" content="Retroplex">
 </head>
 
 <body>
@@ -46,13 +45,14 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
-        <a href="./index.html" class="brand-logo">MaterialCraft</a>
+        <a href="./index.html" class="brand-logo" id="headlogodiv"><img id="headlogo"src="./src/img/logo.png" alt=""></a>
         <ul id="nav-mobile" class="right hide-on-small-and-down">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./voting.html">Voting</a></li>
           <li><a href="./store.html">Store</a></li>
           <li><a href="./staff.html">Staff</a></li>
-          <li><a href="https://discord.gg/yKnhuvY">Discord</a></li>
+          <li><a href="./staff.html">Fourms</a></li>
+          <li><a href="https://discord.gg/vQqyR36">Discord</a></li>
         </ul>
       </div>
     </nav>
@@ -68,7 +68,7 @@
   </div>
 
   <!-- Main Content -->
-  <div class="main staff-main container-fluid">
+  <div class="main staff-main container-fluid" id="staffwrap1">
     <div class="row" style="padding-bottom: 30px;">
       <div class="col s12">
       <h4>Our Staff</h4>
@@ -126,16 +126,6 @@
             </blockquote>
           </div>
         </div>
-        <div class="col s12 m6 l2">
-          <img class="responsive-img" src="./src/img/castle.jpg">
-          <div class="card-panel">
-            <h5>George McFly</h5>
-            <h6>Marty's Dad</h6>
-            <blockquote>
-              He told me that if I didn't take Lorraine out, he would melt my brain.
-            </blockquote>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -144,30 +134,20 @@
   <footer class="page-footer">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5>About</h5>
-          <p>In neque magna, tincidunt quis odio ut, fermentum consequat mi. Aliquam ut condimentum libero. Vivamus lacinia ex cursus neque convallis fermentum. Integer ac libero aliquet, bibendum ante id, porta nunc.
-          </p>
-        </div>
 
-        <div class="col l4 offset-l2 s12">
-          <h5>Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Knowledge Base </a></li>
-            <li><a class="grey-text text-lighten-3" href="./policy.html">Privacy Policy </a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">SSL Information </a></li>
-          </ul>
-        </div>
+        <div id="smc">
+        <a href="https://www.facebook.com"><img src="./src/img/051-facebook.png" alt=""></a>
+        <a href="https://www.youtube.com"><img src="./src/img/051-youtube.png" alt=""></a>
+        <a href="https://discord.gg/vQqyR36"><img src="./src/img/051-discord.png" alt=""></a>
+        <a href="mailto:"><img src="./src/img/051-telegram.png" alt=""></a>
+      </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
         <div class="row">
-          <div class="col s6 l6 left-align">
-            <span>Made with Love by <a href="https://www.sidengel.com">Sid Engel</a>.</span>
-          </div>
-          <div class="col s6 l6 right-align">
-            <span>Your Server | 2017</span>
+          <div class="col s6 l6 right-align" id="cpv">
+              <span>Retroplex | 2017</span>
           </div>
         </div>
       </div>
