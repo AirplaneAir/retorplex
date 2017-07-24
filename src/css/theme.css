@@ -27,7 +27,7 @@ nav {
 }
 
 .nav-wrapper li {
-  right: 665px;
+  right: 710px;
   position: relative;
   transition: all 0.25s ease;
   border-bottom: 2px solid transparent;
@@ -98,9 +98,27 @@ nav {
 
 #staffwrap1 {
   position: relative;
-  left: 100px;
+  left: 50px;
+  width: 355px;
+  
+}
+
+#policy {
+  position: relative;
+  width: 1763px;
+  right: 230px;
 }
 /* Footer */
+
+.smicon {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.smicon:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
 
 #sm{
   position: relative;
